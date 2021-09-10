@@ -9,7 +9,7 @@ class EwJavascript(Exception):
 # Loop
 while 1:
     # Input
-    if input().lower() != 'javascript':
+    if 'javascript' not in input().lower():
         print(f'Fuck Javascript{"!" * randint(1, 10)}')
     else:
         raise EwJavascript # Ew Javascript
